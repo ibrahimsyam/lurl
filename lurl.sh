@@ -1,7 +1,7 @@
-echo "enter url your for js file"
+echo "enter url your for js file : "
 read urljs
 
-echo "enter url your for js file"
+echo "enter your target url : "
 read url
 
 echo "python linkfinder.py -i $urljs -o cli | tee linkfind.txt"
